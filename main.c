@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include "EstructuraGenerica.h"
 //#include "susFunciones.h"
-#define CANTIDAD 10
+#define CANTIDAD 5
 int main()
 {
     eGenerica listadoGenerico[CANTIDAD];
