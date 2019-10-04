@@ -1,31 +1,37 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "EstructuraGenerica.h"
-//#include "susFunciones.h"
-#define CANTIDAD 5
+#include "controller.h"
+
 int main()
 {
     eGenerica listadoGenerico[CANTIDAD];
     eGen_init(listadoGenerico,CANTIDAD);
+    int opcion;
 
-    printf( "\n \t muestro el array... esta vacio");
-    eGen_mostrarListado(listadoGenerico,CANTIDAD);
-    getchar();
+    do{
+        opcion=menu();
+        switch(opcion){
+            case 1:
+                printf("Ingresada la opcion 1.\n");
+                break;
+            case 2:
+                printf("Ingresada la opcion 2.\n");
+                break;
+            case 3:
+                printf("Ingresada la opcion 3.\n");
+                break;
+            case 4:
+                printf("Ingresada la opcion 4.\n");
+                break;
+            default:
+                printf("\nIngrese una opcion v%clida\n", 160);
+                break;
+        }
 
-    printf( "\n \t muestro el array con los borrados y vacios");
-    eGen_mostrarListadoConBorrados(listadoGenerico,CANTIDAD);
-    getchar();
+    system("pause");
+    system("cls");
 
-    eGen_alta(listadoGenerico,CANTIDAD);
-    eGen_alta(listadoGenerico,CANTIDAD);
-    printf( "\n \t cargo dos elementos y muestro el array");
-    eGen_mostrarListado(listadoGenerico,CANTIDAD);
-    getchar();
-
-    printf( "\n \t muestro el array con los borrados y vacios");
-    eGen_mostrarListadoConBorrados(listadoGenerico,CANTIDAD);
-    getchar();
-
+    }while(opcion != 5);
 
     return 0;
 }

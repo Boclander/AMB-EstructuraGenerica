@@ -12,16 +12,36 @@
 	<stdlib.h>
 	"EstructuraGenerica.h"
 
-1537814355 source:c:\users\bruno\desktop\amb-estructuragenerica\main.c
+1570208243 source:c:\users\bruno\desktop\amb-estructuragenerica\main.c
 	<stdio.h>
 	<stdlib.h>
-	"EstructuraGenerica.h"
+	"controller.h"
 
-1537816369 c:\users\bruno\desktop\amb-estructuragenerica\estructuragenerica.h
+1570206333 c:\users\bruno\desktop\amb-estructuragenerica\estructuragenerica.h
 
-1537816468 source:c:\users\bruno\desktop\amb-estructuragenerica\estructuragenerica.c
+1570206333 source:c:\users\bruno\desktop\amb-estructuragenerica\estructuragenerica.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"EstructuraGenerica.h"
+
+1570208475 source:c:\users\bruno\desktop\amb-estructuragenerica\controller.c
+	"controller.h"
+
+1570208243 c:\users\bruno\desktop\amb-estructuragenerica\controller.h
+	"EstructuraGenerica.h"
+	"validaciones.h"
+
+1570208262 c:\users\bruno\desktop\amb-estructuragenerica\validaciones.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	<ctype.h>
+
+1570208272 source:c:\users\bruno\desktop\amb-estructuragenerica\validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validaciones.h"
 
